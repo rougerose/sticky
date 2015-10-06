@@ -89,7 +89,7 @@
               .css('position', 'fixed')
               .css('top', newTop);
 
-            s.stickyElement.parent().addClass(s.className);
+            s.stickyElement.addClass(s.className);
 
             if (s.currentTop === null) {
               s.stickyElement.trigger('sticky-start', [s]);
